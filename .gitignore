@@ -1,0 +1,87 @@
+# ---------- 操作系统 ----------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+# Linux
+*~
+
+# ---------- 编辑器 / IDE ----------
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# ---------- 语言 / 运行时 ----------
+# Node
+node_modules/
+dist/
+build/
+.npm
+*.log
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+# Java / Kotlin
+*.class
+target/
+.gradle/
+# C / C++
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+# 通用构建产物
+out/
+bin/
+obj/
+
+# ---------- 压缩包 / 临时文件 ----------
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tmp
+*.temp
+*_backup.*
+*_old.*
+
+# ---------- 敏感信息 ----------
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# ---------- 大文件 / 模型权重 ----------
+*.bin
+*.weights
+*.onnx
+*.pth
+*.h5
+*.pb
+*.ckpt
+*.safetensors
